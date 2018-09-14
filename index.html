@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>天气</title>
+    <script src="rem.js"></script>
+    <script src="echarts.js"></script>
+    <script src="jQuery.js"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_835684_lqp8gjaim9.css">
+</head>
+<body>
+    <div class="header">
+        <span id="city">
+            上海
+        </span>
+        <div class="audioBtn">
+            <span class="iconfont icon-voice"></span>
+            <span class="iconfont icon-zhuanfa"></span>
+        </div>
+    </div>
+    <div class="screen">
+        <div class="aqi">
+            <span id="aqi">69</span>
+            <span id="quality_level">良</span>
+        </div>
+        <h3><span id="current_temperature">27</span></h3>
+        <h4><span >多云</span></h4>
+        <h5><span>南风 2级</span></h5>
+    </div>
+    <div class="day">
+        <div class="taday">
+            <span>今天</span>
+            <span>29/18</span>
+            <span>多云</span>
+            <span> <img src="img/0.png" alt=""> </span>
+        </div>
+        <div class="tomorrow">
+            <span>明天</span>
+            <span>29/18</span>
+            <span>多云</span>
+            <span> <img src="img/0.png" alt=""> </span>
+        </div>
+    </div>
+    <div class="hours">
+        <div class="con">
+            <div class="box">
+                <div><span>14</span>:00</div>
+                <img src="img/0.png" alt="">
+                <div><span>28</span>°</div>
+            </div>
+            <div class="box">
+                <div><span>14</span>:00</div>
+                <img src="img/0.png" alt="">
+                <div><span>28</span>°</div>
+            </div>
+            <div class="box">
+                <div><span>14</span>:00</div>
+                <img src="img/0.png" alt="">
+                <div><span>28</span>°</div>
+            </div>
+            <div class="box">
+                <div><span>14</span>:00</div>
+                <img src="img/0.png" alt="">
+                <div><span>28</span>°</div>
+            </div>
+            <div class="box">
+                <div><span>14</span>:00</div>
+                <img src="img/0.png" alt="">
+                <div><span>28</span>°</div>
+            </div>
+            <div class="box">
+                <div><span>14</span>:00</div>
+                <img src="img/0.png" alt="">
+                <div><span>28</span>°</div>
+            </div>
+            <div class="box">
+                <div><span>14</span>:00</div>
+                <img src="img/0.png" alt="">
+                <div><span>28</span>°</div>
+            </div>
+            <div class="box">
+                <div><span>14</span>:00</div>
+                <img src="img/0.png" alt="">
+                <div><span>28</span>°</div>
+            </div>
+            <div class="box">
+                <div><span>14</span>:00</div>
+                <img src="img/0.png" alt="">
+                <div><span>28</span>°</div>
+            </div>
+            <div class="box">
+                <div><span>14</span>:00</div>
+                <img src="img/0.png" alt="">
+                <div><span>28</span>°</div>
+            </div>
+            <div class="box">
+                <div><span>14</span>:00</div>
+                <img src="img/0.png" alt="">
+                <div><span>28</span>°</div>
+            </div>
+            <div class="box">
+                <div><span>14</span>:00</div>
+                <img src="img/0.png" alt="">
+                <div><span>28</span>°</div>
+            </div>
+        </div>
+
+    </div>
+    <div class="week">
+        <div class="con">
+            <ul>
+               
+            </ul>
+            <div id="myChart">
+
+            </div>
+        </div>
+    </div>
+    <div class="cityBox">
+        <div class="search">
+            <input type="text" placeholder="搜索地区/景点">
+            <span>取消</span>
+        </div>
+        <div class="main">
+        </div>
+    </div>
+</body>
+</html>
